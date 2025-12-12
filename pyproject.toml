@@ -1,0 +1,23 @@
+[project]
+name = "picpay-ds-case"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "jupyter>=1.1.1",
+    "lightgbm>=4.6.0",
+    "matplotlib",
+    "mlflow>=3.7.0",
+    "numpy>=2.2.6",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.7.2",
+    "seaborn",
+    "ydata-profiling",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+    "ruff>=0.14.8",
+]
